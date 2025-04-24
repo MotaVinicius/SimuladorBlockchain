@@ -83,7 +83,7 @@ class BlockchainGUI:
         style.configure("TButton", font=("Montserrat", 11, "bold"), borderwidth=0, padding=5)
         style.configure("Add.TButton", background="#5CB85C", foreground="white")
         style.configure("Mine.TButton", background="#0275D8", foreground="white")
-        style.configure("Gen.TButton", background="#D9534F", foreground="white")
+        style.configure("Gen.TButton", background="#0275D8", foreground="white")
         style.configure("Clear.TButton", background="#D9534F", foreground="white")
 
         self.blockchain = Blockchain()
